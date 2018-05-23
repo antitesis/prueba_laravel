@@ -79,11 +79,9 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel desplegado en AWS! :)
+                    Laravel desplegado en AWS! x2!!! :)
                 </div>
-                <div>
-                    <h4>Prueba de que fue modificado en entorno local</h4>
-                </div>
+
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
                     <a href="https://laracasts.com">Laracasts</a>

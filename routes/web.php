@@ -14,3 +14,20 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/login', function(){
+	return view('general/login');
+});
+
+Route::get('/usuarios', function() {
+	return 'usuarios';
+});
+
+Route::get('/saludo/{name}', function ($name) {
+    dd('Bienvenido '.$name);
+});
+
+Route::get('/welcome/{firstname}/{lastname}', function ($firstname,$lastname) {
+    dd('Welcome '.$firstname.' '.$lastname);
+});
